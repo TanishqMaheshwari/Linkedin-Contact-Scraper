@@ -1,9 +1,15 @@
-# Linkedin-Contact-Scraper
-Built by Front Row Ventures' Business Development Team in order to more efficiently source contacts. Utilizes BeautifulSoup and Selenium for web scraping.
+# email_gatherer
+Put together by Front Row Venture' Revenue Team to make contact sourcing and storage optimized
+##FIRST COMMIT##
+----Implemented Script found on LinkedIn for LinkedIn lead scraping algo. 
+----It takes a topic and a location and returns a list of people and their associated LinkedIn's. 
+##--------------------------------------------------------Prerequisites----------------------------------------------------##
+-Python 3.8
+-Python Libraries: numpy, pandas, scipy, beautiful soup, selenium, parsel, csv
+-Git-everyone should make a practice push/commit
+-Download chrome driver (https://sites.google.com/chromium.org/driver/downloads?authuser=0)
+   -Input path of where the executable is located; mapped into the correct variable in the python script
 
-## Getting Started
-Within `parameters_real.py`:
-- adjust the `search_query` parameter to include the search results that you would like to see 
-- add your login credentials to the `linkedin_username` and `linkedin_password` parameters. 
 
-Note: in `controller_script.py` you should set the seed to a different value everytime, this randomizes the time between clicks by the computer to mimic the actions of a human. Unauthorized webscraping on Linkedin is prohibited, so use this program at your own discretion. 
+#Next Goals ---
+---Figure out a way to pump this list of LinkedIn URLs into Apollo or some other email scraping software
