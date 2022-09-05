@@ -1,5 +1,5 @@
 # Linkedin-Contact-Scraper
-Built by Front Row Ventures' Business Development Team in order to more efficiently source contacts. Utilizes BeautifulSoup and Selenium for web scraping.
+Built by Front Row Ventures' Business Development Team in order to more efficiently source contacts on Linkedin. Utilizes BeautifulSoup and Selenium for web scraping.
 
 ## Getting Started
 Within `parameters_real.py`:
