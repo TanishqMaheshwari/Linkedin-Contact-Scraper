@@ -1,2 +1,9 @@
 # Linkedin-Contact-Scraper
-Built by Front Row Ventures' Business Development Team in order to more efficiently source contacts and bypass the Linkedin monthly searches limit.
+Built by Front Row Ventures' Business Development Team in order to more efficiently source contacts. Utilizes BeautifulSoup and 
+
+## Getting Started
+Within `parameters_real.py`:
+- adjust the `search_query` parameter to include the search results that you would like to see 
+- add your login credentials to the `linkedin_username` and `linkedin_password` parameters. webscraping on Linkedin may be violating their terms of service, so use this program at your own discretion. 
+
+Note: in `controller_script.py` you should set the seed to a different value everytime, this randomizes the time between clicks by the computer to mimic the actions of a human. Webscraping on Linkedin may be violating their terms of service, so use this program at your own discretion. 
